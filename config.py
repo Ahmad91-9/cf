@@ -61,7 +61,7 @@ LOCAL_APPS = [
 
 GITHUB_APPS = [
     ("RBPK Automation App", "[REMOVED_BASE64_IMAGE]", "https://raw.githubusercontent.com/Ahmad91-9/rbpk-script/main/rbpk.py"),
-    ("PDF Delete_Erase text", "[REMOVED_BASE64_IMAGE]", "https://github.com/Ahmad91-9/cf/blob/main/pageremoverpdf.py"),
+    ("PDF Delete_Erase text", "[REMOVED_BASE64_IMAGE]", "https://raw.githubusercontent.com/Ahmad91-9/cf/blob/main/pageremoverpdf.py"),
 ]
 
 # Helper getters for external imports
@@ -75,3 +75,4 @@ def get_local_apps():
 
 # Keep track of temporary signups to clean up if user abandons registration
 _TEMP_SIGNUPS = []  # list of tuples (idToken, localId)
+
